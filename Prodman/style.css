@@ -1,0 +1,326 @@
+html{
+    height: 200%;
+    width: 100%;
+    background: #eeeeee;
+    overflow-x: hidden;
+}
+@font-face {
+    font-family: 'FontAwesome';
+    src: url(fontawesome-webfont.woff),
+         url(fontawesome-webfont.woff2);
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+header{
+    height: 1050px;
+    width: 1500px;
+}
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 150px;
+    color: #303030;
+}
+.logo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    margin-left: 100px;
+    margin-top: 48px;
+    color: #303030;
+}
+li{
+    margin: 30px;
+}
+
+ul.navi{
+    margin: 30px;
+    margin-left: 700px;
+    position: relative;
+    bottom: 85px;
+}
+ul.navi li{
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    list-style: none;
+    cursor: pointer;
+}
+.lorem1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+    bottom: 80px;
+    color: #303030;
+}
+.blackwhite{
+    display: inline-block;
+    margin-left: 43px;
+    width: 689px;
+    text-align: right;
+}
+.headfhones{
+    margin-left: 869px;
+    position: relative;
+    bottom: 550px;
+}
+.view{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: red;
+    position: relative;
+    left: 50px;
+}
+.ba_slider{
+    position: relative;
+    top: 88px;
+    right: 8px;
+}
+main{
+}
+.prod{
+    font-family: 'Raleway', sans-serif;
+    font-size: 48px;
+    color: #303030;
+    text-align:center;
+    position: relative;
+    top: 100px;
+}
+.underline{
+    position: relative;
+    top: 80px;
+    left: 480px;
+}
+.main{
+    display: inline-block;
+    height: 1300px;
+    width: 1200px;
+    background: #ffffff;
+    margin-left: 80px;
+}
+.main p {
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: #303030;;
+}
+.imge{
+    display:inline-block;
+    height: 814px;
+    width: 1062px;
+}
+.speaker{
+    display:block;
+    margin-left: 70px;
+    width: 692px;
+    height: 387px;
+    background: url("speaker-pill-white-standard-thrqrtleft.jpg");
+}
+.headphones{
+    position: relative;
+    bottom: 387px;
+    margin-left: 800px;
+    display:block;
+    background: url("beats-by-dre-studio-red-highdefinition-headphones.jpg");
+    height: 387px;
+    width: 328px;
+}
+.layer{
+    background: url("Layer.jpg");
+    display: block;
+    width: 328px;
+    height: 387px;
+    margin-left: 70px;
+    position: relative;
+    bottom: 350px;
+}
+.shoes{
+    display: block;
+    background: url("Casual-Shoes-For-Men-2.jpg");
+    height: 387px;
+    width: 329px;
+    position: relative;
+    left: 431px;
+    bottom: 737px;
+}
+.tumbl{
+    display: block;
+    background: url("tumblr_nko8p7po0T1qddxjwo3_1280.jpg");
+    height: 387px;
+    width: 328px;
+    position: relative;
+    left: 800px;
+    bottom: 1125px;
+}
+.speaker:hover::after {
+    text-decoration: underline;
+    content: attr(data-text);
+    font-family:'Roboto', sans-serif;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    z-index: 1;
+    top: 260px;
+    left: 50px;
+    width: 250px;
+}
+.headphones:hover::after {
+    text-decoration: underline;
+    content: attr(data-text);
+    font-family:'Roboto', sans-serif;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    z-index: 1;
+    top: 250px;
+    left: 30px;
+    width: 250px;
+}
+.layer:hover::after{
+    text-decoration: underline;
+    content: attr(data-text);
+    font-family:'Roboto', sans-serif;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    z-index: 1;
+    top: 250px;
+    left: 10px;
+    width: 250px;
+}
+.shoes:hover::after{
+    text-decoration: underline;
+    content: attr(data-text);
+    font-family:'Roboto', sans-serif;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    z-index: 1;
+    top: 250px;
+    left: 10px;
+    width: 250px;
+
+}
+.tumbl:hover::after{
+    text-decoration: underline;
+    content: attr(data-text);
+    font-family:'Roboto', sans-serif;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    z-index: 1;
+    top: 250px;
+    left: 10px;
+    width: 250px;
+}
+.speaker:hover{
+    background:#e10011;
+    cursor: pointer;
+}
+.headphones:hover{
+    background:#e10011;
+    cursor: pointer;
+}
+.layer:hover{
+    background:#e10011;
+    cursor: pointer;
+}
+.shoes:hover{
+    background:#e10011;
+    cursor: pointer;
+}
+.tumbl:hover{
+    background:#e10011;
+    cursor: pointer;
+}
+.man{
+    margin-left: 450px;
+    margin-top: 100px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 48px;
+    color: #303030;
+}
+.lorem3{
+    text-align: center;
+    color: #303030;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    display: block;
+    height: 40px;
+    width: 700px;
+    margin-left: 330px;
+}
+.form{
+    height: 70px;
+    width: 600px;
+    margin-left: 300px;
+    border-bottom-left-radius:50px;
+    border-top-left-radius:50px;
+    border: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    font-style: italic;
+    outline:0;
+}
+.fa-envelope-o{
+    position: relative;
+    right:780px;
+    color: #303030;
+}
+.submit{
+    height: 70px;
+    width: 208px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style:italic;
+    border-bottom-right-radius:50px;
+    border-top-right-radius: 50px;
+    border: none;
+    color: white;
+    background: #e10011;
+    cursor:pointer;
+    position: relative;
+    right: 5px;
+    outline:0;
+}
+.icons{
+    position: relative;
+    top: 100px;
+    left: 600px;
+    font-size: 34px;
+}
+.icons a{
+    position: relative;
+    color: #979797;
+    left: 27px;
+}
+.icons span{
+    display:inline-block;
+    margin: 10px;
+    height: 70px;
+    width: 70px;
+    border:none;
+    background: white;
+    border-radius: 50%;
+    position: relative;
+    left: -60px;
+}
+.icons i{
+    position: relative;
+    top: 20px;
+    right: 5px;
+    vertical-align: inherit;
+}
+.copyright{
+    position: relative;
+    top: 200px;
+    left: 500px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: #979797;
+    margin-bottom: 20px;
+}

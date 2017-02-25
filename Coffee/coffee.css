@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'misobold';
+    src: url('miso-bold-webfont.woff2') format('woff2'),
+    url('miso-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'misoregular';
+    src: url('miso-webfont.woff2') format('woff2'),
+         url('miso-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    background: #fdde7e;
+    overflow-x: hidden;
+}
+.box{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cup1{
+    position: relative;
+    top: 20px;
+    right: 20px;
+}
+.cup2{
+    position: relative;
+    top: 20px;
+    right: 20px;
+}
+.cup3{
+    position: relative;
+    top: 20px;
+    right: 20px;
+}
+.bean1{
+    position: relative;
+    top: 20px;
+    right:115px;
+}
+.bean2{
+    position: relative;
+    top: 20px;
+    right:115px;
+}
+.bean3{
+    position: relative;
+    top: 20px;
+    right:115px;
+}
+.smoke1{
+    position: relative;
+    bottom: 60px;
+    right: 160px;
+}
+.smoke2{
+    position: relative;
+    bottom: 60px;
+    right: 160px;
+}
+.smoke3{
+    position: relative;
+    bottom: 60px;
+    right: 160px;
+}
+.bronze{
+    display: flex;
+    align-items:center;
+    justify-content:flex-end;
+    height: 445px;
+    width: 347px;
+    background: white;
+    cursor: pointer;
+
+}
+.gold{
+    display: flex;
+    align-items:center;
+    justify-content:flex-end;
+    height: 504px;
+    width: 364px;
+    background: white;
+    cursor: pointer;
+}
+.silver{
+    display: flex;
+    align-items:center;
+    justify-content:flex-end;
+    height: 445px;
+    width: 347px;
+    background: white;
+    cursor: pointer;
+}
+span{
+    position: relative;
+    left: 150px;
+    bottom: 150px;
+    font-family: 'misobold';
+    font-size: 70px;
+    color: green;
+}
+.gold span{
+    position: relative;
+    bottom: 170px;
+}
+.silver span{
+    position: relative;
+    left: 170px;
+}
+.bronze h2{
+    width: 100px;
+    position: relative;
+    top: 120px;
+    left: 90px;
+    font-family: 'misoregular';
+    font-size: 45px;
+}
+.gold h2 {
+    width: 100px;
+    position: relative;
+    top: 120px;
+    left: 90px;
+    font-family: 'misoregular';
+    font-size: 45px;
+}
+.silver h2 {
+    width: 100px;
+    position: relative;
+    top: 120px;
+    left: 90px;
+    font-family: 'misoregular';
+    font-size: 45px;
+}
+.bronze1{
+    position: relative;
+    bottom: 190px;
+    right: 450px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.gold1{
+    position: relative;
+    bottom: 250px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.silver1{
+    position: relative;
+    bottom: 310px;
+    left: 450px;;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}

@@ -1,0 +1,148 @@
+html{
+    height: 100%;
+}
+@font-face {
+    font-family: 'museo_sans_cyrl100';
+    src: url("museosanscyrl-webfont.woff2") format("woff2"),
+         url("museosanscyrl-webfont.woff") format("woff");
+}
+body{
+    height: 100%;
+    background: #939393;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.main{
+    display: inline-block;
+    height: 100%;
+    width: 1919px;
+}
+.background {
+    height: 1753px;
+    width: 1919px;
+    background-image:url("imges/Layer 5.png"),
+    url("imges/Layer 6.png"),
+    url("imges/Group 3 copy.jpg");
+    background-repeat: no-repeat;
+    background-position: 250px 30px,
+    250px 30px,
+    250px 30px;
+}
+.rounded{
+    display: block;
+    position: absolute;
+    left:310px;
+    top: 150px;
+    height: 391px;
+    width: 689px;
+    background: #111a28;
+    border-radius: 10px;
+    -webkit-box-shadow: -14px -1px 32px 14px rgba(0,0,0,0.5);
+    -moz-box-shadow: -14px -1px 32px 14px rgba(0,0,0,0.5);
+    box-shadow: -14px -1px 32px 14px rgba(0,0,0,0.5);
+}
+.logo{
+    margin: 20px;
+}
+.shoe{
+    position: absolute;
+    top: 126px;
+    left: 36px;
+}
+.info{
+    font-family: "museo_sans_cyrl100";
+    color: #9da1a6;
+    float: right;
+}
+.stefan{
+    margin-top: 80px;
+    margin-right: 50px;
+    width: 200px;
+    font-size: 24px;
+    margin-bottom: 5px;
+    color: #9da1a6;
+}
+p{
+    font-size: 14px;
+    margin: 0 auto;
+}
+.rating{
+    position: relative;
+    right: 145px;
+    top: 20px;
+    font-size: 20px;
+    fill: #9da1a6;
+}
+.rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+}
+.rating > span {
+    display: inline-block;
+    position: relative;
+    width: 1.1em;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+    content: "\2605";
+    position: absolute;
+    color: #f7bf16;
+}
+.size{
+    height: 32px;
+    width: 69px;
+    position:absolute;
+    top: 230px;
+    right: 180px;
+    background: transparent;
+    font-family: "museo_sans_cyrl100", 14px;
+    color: #4f5560;
+    outline: none;
+}
+.size2{
+    height: 32px;
+    width: 69px;
+    position: absolute;
+    top: 230px;
+    right: 100px;
+    background: transparent;
+    font-family: "museo_sans_cyrl100", 14px;
+    color: #4f5560;
+    outline: none;
+}
+.button input{
+    background: #202835;
+    height: 40px;
+    width: 184px;
+    position: absolute;
+    top: 300px;
+    right: 65px;
+    border: 1px solid;
+    color:#80848b;
+    outline: none;
+    cursor: pointer;
+}
+.color div{
+    display:inline-block;
+    position: relative;
+    top: 280px;
+    left: 180px;
+    margin: 3px;
+    height: 12px;
+    width: 12px;
+    background: white;
+    border-radius: 50%;
+}
+.color .grey{
+    background: #1f273f;
+}
+.color .white{
+    background: white;
+}
+.color .red{
+    background: red;
+}
+.color .blue{
+    background:#29e3ea;
+}
+

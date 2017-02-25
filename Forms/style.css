@@ -1,0 +1,77 @@
+html{
+    height: 100%;
+    padding: 0;
+}
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    background: linear-gradient(221deg, rgba(221,36,118,1) 0%, rgba(221,36,118,1) 4%, rgba(241,62,77,1) 57%, rgba(255,81,47,1) 75%, rgba(255,81,47,1) 100%) no-repeat;
+}
+.form{
+    margin: auto;
+    height: 460px;
+    width: 471px;
+    background: white;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+h1{
+    font-family: Arial;
+    color: #1b1c1d;
+    font-size: 24px;
+}
+p{
+    font-family: Arial;
+    color: #7a7b7f;
+    font-size: 13px;
+}
+a{
+    text-decoration: none;
+    color: #ea355a;
+    font-family: Arial;
+}
+.name input{
+    border: none;
+    background: #f0f0f0;
+    border-radius: 5px;
+    font-family: Arial;
+    font-size: 20px;
+}
+.name .login2{
+    width: 220px;
+    height: 45px;
+    padding-left: 5px;
+}
+.name .login{
+    width: 220px;
+    height: 45px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+.name .password{
+    margin-bottom: 20px;
+    height: 45px;
+    width: 460px;
+    padding-left: 10px;
+}
+.name .email{
+    margin-bottom: 20px;
+    height: 45px;
+    width: 460px;
+    padding-left: 10px;
+}
+.name .sign_up{
+    height: 55px;
+    width: 460px;
+    background: #ea355a;
+    font-family: Arial;
+    color: white;
+    font-weight: bold;
+    border-bottom: solid #bd1962;
+}
