@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300i,400,700');
+
+body {
+    font: 300 16px/1.5 "Lato", Arial, sans-serif;
+    color: #3c3c3c;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    letter-spacing: .16em;
+    line-height: 1.3em;
+}
+
+p {
+    margin-top: 0 0 25px;
+}
+
+.conteiner {
+    padding-left: 20px;
+    padding-right: 20px;
+    display: inline-block;
+    max-width: 940px;
+
+}
+
+.conteiner--hero {
+    max-width: 600px;
+}
+
+.header {
+    background: #aab8ca url("478e20cdf5-design-lab-assets/hero-bg.jpg") 50% no-repeat;
+    color: #fff;
+    text-align: center;
+    background-size: cover;
+    padding: 284px 0 384px;
+    min-height: 50vh;
+    font-size: 15px;
+    letter-spacing: .06em;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 2;
+}
+
+.logo {
+    display: inline-block;
+    margin-bottom: 80px;
+}
+
+.hero {
+    text-transform: uppercase;
+    margin: 0 0 35px;
+}
+
+.scroll {
+    display: block;
+    width: 23px;
+    height: 37px;
+    position: absolute;
+    margin-top: 230px;
+    left: 50%;
+    background: url("478e20cdf5-design-lab-assets/scroll.svg") 50% no-repeat;
+}
+
+.scroll:hover {
+    opacity: 0.5;
+}
+
+/*  About */
+.about {
+    padding: 150px;
+    font-size: 16px;
+    margin-left: 40px;
+}
+
+.box {
+    border: 2px solid #3c3c3c;
+    border-width: 0 2px 2px;
+    padding: 70px 180px 26px;
+    text-align: center;
+    font-size: 16px;
+    position: relative;
+}
+
+.box:before,
+.box:after {
+    display: block;
+    content: '';
+    position: absolute;
+    height: 2px;
+    background: #3c3c3c;
+    width: 20%;
+    top: 0;
+}
+
+.box:before {
+    left: 0;
+}
+
+.box:after {
+    right: 0;
+}
+
+.box:last-child {
+    margin-bottom: 0;
+}
+
+.box_light {
+    border-color: #fff;
+}
+
+.box_light:before, .box_light:after {
+    background-color: #fff;
+}
+
+.box__title {
+    font-size: 34px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 12%;
+    top: 0;
+    text-align: center;
+    margin: 0;
+    width: 76%;
+    transform: translateY(-50%);
+}
+
+.section {
+    padding: 130px 0 110px;
+}
+
+.section-services {
+    color: #fff;
+    background: #aab8ca url("478e20cdf5-design-lab-assets/services.jpg") 50% no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.section-wwd {
+    padding: 120px 180px 162px;
+}
+
+.design {
+    margin-top: 102px;
+}
+
+.development {
+    margin-top: 102px;
+}
+
+.prodmanage {
+    margin-top: 102px;
+}
+
+.prod1 {
+    margin-bottom: 100px;
+}
+
+.cage {
+    display: inline-flex;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 100px;
+
+}
+
+.layer1 {
+    width: 29.2%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.layer2 {
+    width: 39.2%;
+    margin-bottom: 10px;
+}
+
+.layer3 {
+    width: 30%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.layer4 {
+    width: 29.2%;
+    margin-right: 10px;
+}
+
+.layer5 {
+    width: 39.2%;
+}
+
+.layer6 {
+    width: 30%;
+    margin-left: 10px;
+}
+.contact{
+    margin-top: 700px;
+}
+.button{
+    height: 59px;
+    width: 359px;
+    background-color: #3c3c3c;
+    font-size: 15px;
+    letter-spacing: .06em;
+    font-weight: 800px;
+    text-transform: uppercase;
+    color: white;
+    outline: none;
+    border: none;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+footer{
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+footer img{
+    position: absolute;
+    left: 400px;
+}
