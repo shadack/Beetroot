@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300i,400,700');
 
+html{
+    width: 100%;
+}
 body {
+    width: 100%;
     font: 300 16px/1.5 "Lato", Arial, sans-serif;
     color: #3c3c3c;
     margin: 0;
@@ -158,47 +162,39 @@ p {
 }
 
 .cage {
-    display: inline-flex;
-    position: absolute;
-    left: 0;
-    width: 100%;
-    flex-wrap: wrap;
-    margin-top: 100px;
-
+    display:block;
 }
-
 .layer1 {
-    width: 29.2%;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    width: 29%;
+    height: 249px;
 }
-
 .layer2 {
-    width: 39.2%;
-    margin-bottom: 10px;
+    width: 39%;
+    height: 249px;
 }
-
 .layer3 {
-    width: 30%;
-    margin-left: 10px;
-    margin-bottom: 10px;
+    width: 31%;
+    height: 249px;
 }
 
 .layer4 {
-    width: 29.2%;
-    margin-right: 10px;
+    width: 29%;
+    height: 249px;
 }
 
 .layer5 {
-    width: 39.2%;
+    width: 39%;
+    height: 249px;
 }
 
 .layer6 {
-    width: 30%;
-    margin-left: 10px;
+    width: 31%;
+    height: 249px;
 }
+
 .contact{
-    margin-top: 700px;
+    margin-top: 200px;
+    text-align: center;
 }
 .button{
     height: 59px;
@@ -215,11 +211,13 @@ p {
     margin-bottom: 40px;
 }
 footer{
+    margin-top: 100px;
     text-align: center;
-    margin: 0 auto;
-    padding-top: 50px;
+
 }
-footer img{
-    position: absolute;
-    left: 400px;
+.logo2{
+    position: relative;
+    right: 200px;
+    bottom: 50px;
+
 }
