@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300i,400');
+
+html {
+    height: 100%;
+}
+
+body {
+    background: grey;
+    height: 100%;
+}
+
+.bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.main_bg {
+    position: fixed;
+    height: 627px;
+    width: 876px;
+    background: linear-gradient(269deg, rgba(170, 111, 174, 1) 0%, rgba(109, 66, 153, 1) 100%);
+}
+
+.layer {
+    height: 627px;
+    width: 876px;
+    background: url("c9f425c3e3-nikeproductcard-assets/bg_t.png");
+    opacity: 0.9;
+}
+
+.logo {
+    margin-left: 66px;
+    margin-top: 26px;
+}
+
+.menu {
+    margin-left: 200px;
+    position: absolute;
+    top: 32px;
+}
+
+.menu span {
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed 300', sans-serif;
+    font-size: 13px;
+    padding: 30px;
+    color: white;
+}
+
+.navicon {
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.menu span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.card2 {
+    position: absolute;
+    top: 66px;
+}
+
+.cards {
+    margin-top: 30px;
+}
+
+.block {
+    height: 430px;
+    width: 752px;
+    background: #f5f5f5;
+    background-image: url("c9f425c3e3-nikeproductcard-assets/bg.png");
+    background-repeat: no-repeat;
+    background-position: 35px 65px;
+    position: absolute;
+    top: 107px;
+    left: 60px;
+}
+
+.huarache {
+    position: absolute;
+    left: 44px;
+    top: 86px;
+}
+
+.shoes {
+    position: absolute;
+    top: 35px;
+    left: 40px;
+}
+
+.img {
+    position: absolute;
+    left: 44px;
+    top: 75px;
+}
+.photos{
+    display: inline;
+    position: absolute;
+    top: 350px;
+    left: 160px;
+}
+.photos img{
+    padding: 10px;
+}
+.info1{
+    position: absolute;
+    left: 503px;;
+    background:#ffffff;
+    height: 430px;
+    width: 250px;
+}
+.new{
+    margin-top: 30px;
+    text-transform: uppercase;
+    margin-left: 20px;
+    background: #ffa60d;
+    width: 45px;
+    height: 25px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.new p{
+    position: relative;
+    top: 5px;
+}
+h1{
+    text-transform: uppercase;
+    margin-left: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+}
+h1 span{
+    color:#5e4fff;
+}
+.huarache2{
+    position: absolute;
+    top: 135px;
+    left: 23px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+.rating{
+    margin-left: 93px;
+}
+.rating img{
+    padding: 1px;
+}
+h2{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    margin-left: 20px;
+}
+.size p{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.size span{
+    display: inline;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 20px;
+    padding: 7px;
+}
+.size span:hover{
+    border: solid black;
+    cursor: pointer;
+}
+.button{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.add{
+    font-family: 'Roboto Condensed', sans-serif;
+    background: none;
+    border: solid black;
+    font-weight: bold;
+    font-size: 12px;
+    height: 32px;
+    width: 119px;
+    outline: none;
+    margin-bottom: 5px;
+}
+.add:hover{
+    color: white;
+    background: #a200b8;
+    border: none;
+}
+.wish{
+    font-family: 'Roboto Condensed', sans-serif;
+    background: none;
+    border: solid black;
+    font-weight: bold;
+    font-size: 12px;
+    height: 32px;
+    width: 119px;
+    outline: none;
+}
+.wish:hover{
+    color: white;
+    background: #a200b8;
+    border: none;
+}
+*{transition: all .1s ease-in;}
