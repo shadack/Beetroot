@@ -76,6 +76,7 @@ p {
     padding: 150px;
     font-size: 16px;
     margin-left: 40px;
+    text-align: center;
 }
 
 .box {
@@ -142,6 +143,7 @@ p {
 }
 .section-wwd {
     padding: 120px 180px 162px;
+    text-align: center;
 }
 .design {
     margin-top: 102px;
