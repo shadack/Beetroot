@@ -1,0 +1,306 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:100i,300i,400,700|Raleway:300i,400,700");
+html {
+  width: 100%; }
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%; }
+
+.head {
+  background: #02496a url("Elegant-assets/HERO Img.jpg") no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 900px; }
+  .head .container__logo img {
+    position: relative;
+    left: 13.5%;
+    margin-top: 3%; }
+  .head .container__menu {
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    position: relative;
+    width: 53%;
+    margin-top: 50px;
+    float: right; }
+    .head .container__menu a {
+      text-decoration: none;
+      color: #fffefe; }
+  .head .container__menu span {
+    padding: 30px; }
+  .head .container__title {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #fffefe;
+    margin-top: 220px; }
+  .head .container__shape {
+    margin: 0 auto;
+    display: block;
+    margin-top: 44px; }
+  .head p {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 60px; }
+  .head .conteiner__scroll {
+    background: url("Elegant-assets/arrow.svg") no-repeat;
+    display: block;
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 250px; }
+  .head .conteiner__scroll:hover {
+    opacity: 0.5; }
+
+.services {
+  width: 100%;
+  height: 740px; }
+  .services h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #222222;
+    text-align: center;
+    margin-top: 115px; }
+  .services .container__shape {
+    margin: 0 auto;
+    display: block;
+    margin-top: 70px; }
+  .services .container_img {
+    display: flex;
+    justify-content: space-around; }
+  .services .services__iphone {
+    background: url("Elegant-assets/Apple iphone.svg") 50% no-repeat;
+    height: 400px;
+    width: 360px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #222222; }
+    .services .services__iphone h3, .services .services__iphone p {
+      position: relative;
+      top: 300px; }
+  .services .services__responsive {
+    background: url("Elegant-assets/Responsive Desig.svg") 50% no-repeat;
+    height: 400px;
+    width: 360px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #222222; }
+    .services .services__responsive h3, .services .services__responsive p {
+      position: relative;
+      top: 300px; }
+  .services .services__verification {
+    background: url("Elegant-assets/Verification.svg") 50% no-repeat;
+    height: 400px;
+    width: 360px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #222222; }
+    .services .services__verification h3, .services .services__verification p {
+      position: relative;
+      top: 300px; }
+
+.dolore {
+  height: 500px;
+  width: 100%;
+  background: url("Elegant-assets/[IMG].png") no-repeat;
+  background-size: cover; }
+  .dolore img {
+    position: relative;
+    left: 64%;
+    top: 75px; }
+  .dolore h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 45px;
+    color: #ffffff;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 280px;
+    width: 88%;
+    left: 12%;
+    margin-bottom: 0.2px; }
+  .dolore p {
+    font-family: 'Lato',sans-serif;
+    color: #ffffff;
+    font-size: 22px;
+    position: relative;
+    bottom: 278px;
+    width: 88%;
+    left: 12%; }
+  .dolore a {
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    font-size: 22px;
+    position: relative;
+    bottom: 250px;
+    left: 12%; }
+
+.work {
+  height: 956px; }
+  .work .container__shape {
+    margin: 0 auto;
+    display: block;
+    margin-top: 70px;
+    margin-bottom: 85px; }
+  .work h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    color: #333;
+    text-transform: uppercase;
+    text-align: center; }
+  .work .work__images {
+    height: 441px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto; }
+    .work .work__images .image1 {
+      background: url("Elegant-assets/Layer 1.jpg");
+      height: 420px;
+      width: 370px; }
+    .work .work__images .image1__layer {
+      display: none;
+      background-color: rgba(0, 0, 0, 0.7);
+      height: 420px;
+      width: 370px; }
+      .work .work__images .image1__layer h3 {
+        margin: 0 auto;
+        padding: 0 auto;
+        font-family: 'Lato', sans-serif;
+        font-size: 22px;
+        color: white;
+        text-transform: uppercase;
+        position: relative;
+        top: 200px;
+        text-align: center; }
+      .work .work__images .image1__layer div {
+        position: relative;
+        top: 230px;
+        background: url("Elegant-assets/link1.svg") no-repeat;
+        height: 300px;
+        width: 300px;
+        left: 160px; }
+    .work .work__images .image1:hover .image1__layer {
+      display: block;
+      cursor: pointer; }
+    .work .work__images .image2:hover .image1__layer {
+      display: block;
+      cursor: pointer; }
+    .work .work__images .image3:hover .image1__layer {
+      display: block;
+      cursor: pointer; }
+    .work .work__images .image2 {
+      background: url("Elegant-assets/Layer 2.jpg");
+      height: 420px;
+      width: 370px; }
+    .work .work__images .image3 {
+      background: url("Elegant-assets/Layer 3.jpg");
+      height: 420px;
+      width: 370px; }
+  .work .work__button {
+    height: 61px;
+    width: 362px;
+    background: none;
+    border: 3px solid;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 83px;
+    outline: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px; }
+  .work .work__button:hover {
+    background: black;
+    color: white;
+    cursor: pointer; }
+
+footer {
+  background: url("Elegant-assets/bg.jpg") no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 900px; }
+  footer h2 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #fffefe;
+    padding-top: 100px; }
+  footer .container__shape {
+    margin: 0 auto;
+    display: block;
+    padding-top: 70px; }
+  footer .footer__sprite {
+    background: url("sprite.png");
+    height: 31px;
+    width: 250px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px; }
+  footer .form__box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 900px;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 70px; }
+    footer .form__box .footer__name {
+      width: 300px;
+      height: 40px;
+      background: none;
+      border: none;
+      border-bottom: 2px solid #afafaf;
+      outline: none;
+      font-family: 'Lato', sans-serif;
+      font-style: italic;
+      font-size: 18px;
+      color: white;
+      margin-right: 70px;
+      padding-left: 20px; }
+    footer .form__box .footer__email {
+      width: 300px;
+      height: 40px;
+      background: none;
+      border: none;
+      border-bottom: 2px solid #afafaf;
+      outline: none;
+      font-family: 'Lato', sans-serif;
+      font-style: italic;
+      font-size: 18px;
+      color: white;
+      padding-left: 20px; }
+    footer .form__box .footer__message {
+      width: 695px;
+      height: 40px;
+      background: none;
+      border: none;
+      border-bottom: 2px solid #afafaf;
+      outline: none;
+      font-family: 'Lato', sans-serif;
+      font-style: italic;
+      font-size: 18px;
+      color: white;
+      padding-left: 20px;
+      margin-top: 100px; }
+  footer .send {
+    width: 180px;
+    height: 60px;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    color: white;
+    background: none;
+    border: 2px solid white;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px; }
+  footer .send:hover {
+    background: white;
+    color: black;
+    cursor: pointer; }
+
+/*# sourceMappingURL=style.css.map */

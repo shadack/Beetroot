@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="86" height="2" viewBox="0 0 86 2">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #222;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Line_sep.svg" data-name="Line sep.svg" class="cls-1" d="M757,1118v-2h86v2H757Z" transform="translate(-757 -1116)"/>
+</svg>
