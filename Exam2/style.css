@@ -1,0 +1,446 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400");
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    background: #f3f3f3;
+}
+
+header {
+    display: block;
+    background: url("bouncy-assets/Layer 1.jpg") no-repeat;
+    width: 100%;
+    height: 737px;
+    background-size: cover;
+}
+
+header #header_logo {
+    margin: 50px 100px;
+}
+
+header .header_menu {
+    float: right;
+    margin-right: 35px;
+    margin-top: 30px;
+}
+
+header .header_menu li {
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    list-style: none;
+    display: inline-block;
+}
+
+header .header_menu li a {
+    padding: 16.5px;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+header .header_menu li a:hover {
+    border: 1px solid #fff;
+    border-radius: 25px;
+}
+
+header h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 155px;
+    letter-spacing: 5px;
+    font-size: 35px;
+}
+
+header p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+}
+
+header #header_anchor {
+    display: block;
+    margin: 0 auto;
+    margin-top: 190px;
+}
+
+header #header_anchor:hover {
+    opacity: 0.5;
+}
+
+main {
+    background: #f3f3f3;
+    height: 100%;
+    margin-bottom: 100px;
+}
+
+main h3 {
+    margin-top: 85px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    letter-spacing: 3px;
+    color: #333b46;
+}
+
+main p {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #81868e;
+    margin-bottom: 65px;
+}
+
+main .portfolio_menu {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+main .portfolio_menu li {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    list-style: none;
+    display: inline-block;
+    padding: 16px;
+}
+
+main .portfolio_menu a {
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #464646;
+    padding-bottom: 5px;
+}
+
+main .portfolio_menu a:hover {
+    border-bottom: 2px solid aqua;
+}
+
+main .portfolio_images {
+    display: block;
+    width: 88%;
+    margin: 0 auto;
+}
+
+main .grid-item {
+    padding-bottom: 10px;
+}
+
+section {
+    background: #ffffff;
+    height: 100%;
+}
+
+section h3 {
+    padding-top: 65px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: #333b46;
+    margin-bottom: 35px;
+}
+
+section p {
+    text-align: center;
+    font-size: 14px;
+    color: #81868e;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 60px;
+}
+
+.team_slider {
+    background: #ffffff;
+    max-width: 1050px;
+    height: 100%;
+    min-height: 100%;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 100px;
+    border: none;
+}
+
+.team_slider div img {
+    float: left;
+}
+
+.team_slider .slick-dots {
+    padding-bottom: 30px;
+}
+
+.team_slider .slick-dots li button:before {
+    font-size: 20px;
+    line-height: 20px;
+    color: #ffffff;
+    margin-bottom: 100px;
+}
+
+.team_slider .team_slider_info {
+    float: right;
+    width: 400px;
+    text-align: right;
+    font-family: 'Open Sans', sans-serif;
+    color: #fdfff4;
+}
+
+.team_slider .team_slider_info h5 {
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    font-style: italic;
+    color: #ffffff;
+    margin: 0;
+}
+
+.team_slider .team_slider_info h4 {
+    margin: 0;
+    font-weight: 600;
+}
+
+.team_slider .team_slider_info p {
+    text-align: right;
+    font-size: 14px;
+    margin-top: 30px;
+    line-height: 25px;
+}
+
+aside {
+    background: #f3f3f3;
+}
+
+.aside_contact {
+    display: block;
+    height: 220px;
+    width: 100%;
+    background: url("bouncy-assets/letsTalk.jpg") no-repeat;
+    background-size: cover;
+    text-decoration: none;
+}
+
+.aside_contact h4 {
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+    position: relative;
+    top: 50px;
+    letter-spacing: 1.2px;
+}
+
+.aside_contact a {
+    text-decoration: none;
+}
+
+.aside_contact input {
+    display: block;
+    background: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 5px;
+    margin: 0 auto;
+    position: relative;
+    top: 90px;
+    cursor: pointer;
+    outline-style: none;
+}
+
+.aside_contact input:hover {
+    opacity: 0.5;
+}
+
+.aside_slider h3 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: #333b46;
+    margin-top: 85px;
+}
+
+.aside_slider p {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: #81868e;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 60px;
+}
+
+.aside_slider #aside_slider {
+    background: #ffffff;
+    max-width: 1117px;
+    height: 320px;
+    margin: 0 auto;
+}
+
+.aside_slider #aside_slider .aside_slider_slide {
+    margin-top: 50px;
+    margin-left: 30px;
+    height: 300px;
+    outline: none;
+}
+
+.aside_slider #aside_slider img {
+    float: left;
+}
+
+.aside_slider #aside_slider p {
+    width: 700px;
+    margin-left: 200px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.aside_slider #aside_slider span {
+    margin-left: 70px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #19bd9a;
+}
+
+.aside_slider #aside_slider h4 {
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #333b46;
+    font-weight: 400;
+    margin: 0 200px;
+}
+
+.aside_slider .slick-dotted.slick-slider {
+    margin-bottom: 50px;
+}
+
+.aside_slider .slick-dots {
+    position: absolute;
+    bottom: -25px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.aside_slider .slick-dots li {
+    position: relative;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px 50px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.aside_slider .slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 10px;
+    height: 10px;
+    padding: 5px;
+    cursor: pointer;
+    color: #d90901;
+    border: 2px solid #19bd9a;
+    border-radius: 50px;
+    outline: none;
+}
+
+.aside_slider .slick-dots li button:hover,
+.aside_slider .slick-dots li button:focus {
+    background: #19bd9a;
+}
+
+.aside_slider .slick-dots li button:before {
+    font-family: 'slick', sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    content: '';
+    text-align: center;
+    color: #9f00ff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.aside_slider .slick-dots li.slick-active button:before {
+    margin: 2px 2px 2px 2px;
+    background: #19bd9a;
+    width: 12px;
+    height: 12px;
+}
+
+footer {
+    background: #ffffff;
+}
+
+footer h3 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: #333b46;
+    margin-top: 85px;
+    padding-top: 80px;
+}
+
+footer p {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: #81868e;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 60px;
+}
+
+footer .footer_logo {
+    display: block;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+footer .footer_social {
+    display: flex;
+    justify-content: center;
+}
+
+footer .footer_social img {
+    padding: 5px;
+    margin-bottom: 65px;
+}
+
+#map {
+    height: 450px;
+    width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
