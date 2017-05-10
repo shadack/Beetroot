@@ -1,0 +1,553 @@
+
+body {
+  height: 100%;
+  background: #ebebeb;
+  overflow-x: hidden;
+}
+
+header {
+  background: url("../pics/DeathtoStock_Wired.jpg") no-repeat;
+  background-size: cover;
+  height: 1070px;
+  width: 100%;
+  #header__logo {
+    margin: 40px 0 0 0;
+  }
+  .navbar {
+    background: none;
+    border: none;
+    position: relative;
+    top: -60px;
+  }
+  .container-fluid {
+    .nav {
+      font-family: 'Proxima Nova', sans-serif;
+      color: #ffffff;
+      text-transform: uppercase;
+      font-size: 24px;
+      font-weight: 400;
+      list-style: none;
+      display: inline-block;
+      float: right;
+      a {
+        padding: 16.5px;
+        border: 1px solid transparent;
+        box-sizing: border-box;
+        text-decoration: none;
+        color: #ffffff;
+      }
+    }
+  }
+  h1 {
+    text-transform: uppercase;
+    font-family: 'Proxima Nova', sans-serif;
+    color: #ffffff;
+    font-size: 73px;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    margin-top: 200px;
+  }
+  p {
+    color: #fefdfd;
+    font-size: 30px;
+    font-family: 'PT Sans', sans-serif;
+    font-style: italic;
+    text-align: center;
+    margin-top: 35px;
+  }
+}
+
+.about {
+  padding-top: 125px;
+  .about__img {
+    width: 385px;
+    background: url("../pics/DeathtoStock_Wired8.jpg") 0 0 no-repeat;
+    background-size: cover;
+    height: 555px;
+    padding-top: 35px;
+    margin: 0 auto;
+    .about__title {
+      display: block;
+      margin: 0 auto;
+      font-family: "Proxima Nova", sans-serif;
+      font-size: 36px;
+      text-transform: uppercase;
+      text-align: center;
+      color: #FFFFFF;
+      padding-top: 50px;
+    }
+  }
+  .col-md-7 {
+    margin-left: 8.33333%;
+    .about__text {
+      padding-top: 80px;
+      display: block;
+      font-family: "PT Sans", sans-serif;
+      font-size: 20px;
+      float: right;
+      color: #665f60;
+      span {
+        font-weight: bold;
+      }
+    }
+    .about__text-second {
+      padding-top: 20px;
+      margin-bottom: 100px;
+    }
+    .about__button {
+      display: block;
+      width: 195px;
+      height: 50px;
+      border: 1px solid #7d7a7c;
+      color: #7d7a7c;
+      font-family: 'PT Sans', sans-serif;
+      font-weight: 400;
+      font-style: italic;
+      text-align: center;
+      margin: 0 auto;
+      background: none;
+      outline: none;
+    }
+  }
+}
+
+.services {
+  margin-top: 100px;
+  .services__title {
+    padding-top: 20px;
+    font-size: 24px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    color: #665f60;
+    text-transform: uppercase
+  }
+  .services__text {
+    font-size: 18px;
+    font-family: 'PT Sans', sans-serif;
+    font-style: italic;
+    color: #665f60;
+  }
+  .services__col__dark {
+    display: block;
+    width: 390px;
+    height: 400px;
+    background: #dbdbdb;
+    text-align: center;
+    padding-top: 85px;
+    margin: 0 auto;
+  }
+  .services__col {
+    display: block;
+    width: 390px;
+    height: 400px;
+    text-align: center;
+    padding-top: 85px;
+    margin: 0 auto;
+  }
+  .services__col__long {
+    background: url("../pics/unsplash.jpg") no-repeat;
+    background-size: cover;
+    height: 799px;
+    padding-top: 100px;
+    margin: 0 auto;
+    .services__col__title {
+      color: #fff;
+      font-size: 36px;
+      font-family: "Proxima Nova", sans-serif;
+      font-weight: 700;
+      margin-bottom: 120px;
+      text-transform: uppercase;
+      margin-top: 35px;
+    }
+    .services__col__text {
+      font-family: "PT Sans", sans-serif;
+      font-style: italic;
+      color: #FFFFFF;
+      font-size: 18px;
+    }
+    span {
+      font-family: "PT Sans", sans-serif;
+      font-weight: bold;
+      color: #FFFFFF;
+      font-size: 18px;
+    }
+  }
+}
+
+.works__slider {
+  background: url("../pics/DeathtoStock.jpg") no-repeat;
+  background-size: cover;
+  height: 1050px;
+  h2 {
+    text-align: center;
+    font-family: "Proxima Nova", sans-serif;
+    font-size: 36px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+  }
+  .works__icon {
+    display: block;
+    margin: 0 auto;
+    padding-top: 50px;
+  }
+  .carousel-inner {
+    img {
+      margin: 0 auto;
+      width: 100%;
+    }
+  }
+  .work__arrows {
+    position: relative;
+    top: 300px;
+  }
+  .left {
+    right: 930px;
+  }
+  .right {
+    left: 100px;
+  }
+  .works__slider__button {
+    display: block;
+    text-decoration: none;
+    width: 195px;
+    height: 50px;
+    border: 1px solid white;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 10px;
+    font-family: "PT Sans", sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    color: #FFFFFF;
+    margin-top: 100px;
+
+  }
+}
+
+.team {
+  .team__icon {
+    display: block;
+    margin: 0 auto;
+    padding-top: 100px;
+  }
+  h2 {
+    font-size: 36px;
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: 400;
+    color: #665f60;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+  .team__block {
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: #FFFFFF;
+    img {
+      display: block;
+      margin: 0 auto;
+      position: relative;
+      bottom: 130px;
+    }
+    h3 {
+      text-align: center;
+      text-transform: uppercase;
+      font-family: "Proxima Nova", sans-serif;
+      font-size: 24px;
+      font-weight: bold;
+      color: #9f9acf;
+      position: relative;
+      bottom: 100px;
+    }
+    p {
+      text-align: center;
+      font-family: "PT Sans", sans-serif;
+      font-style: italic;
+      font-size: 24px;
+      color: #665f60;
+      position: relative;
+      bottom: 80px;
+    }
+  }
+
+  .team__slider {
+    display: block;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 100px;
+    .item__slide {
+      margin-top: 120px;
+      width: 100%;
+    }
+  }
+  .right {
+    display: block;
+    float: right;
+    position: relative;
+    bottom: 250px;
+    left: 50px;
+  }
+  .left {
+    display: block;
+    float: left;
+    position: relative;
+    right: 30px;
+    top: 300px;
+  }
+  .team__aside__block {
+    display: block;
+    height: 70px;
+    width: 100%;
+    background: #9f9acf;
+    .team__aside__links {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      padding-top: 10px;
+      a {
+        padding: 10px;
+      }
+    }
+  }
+}
+
+.contacts {
+  position: relative;
+  #contacts__map {
+    height: 905px;
+    width: 100%;
+
+  }
+  .contacts__content {
+    background: rgba(159, 154, 207, 0.5);
+    width: 100%;
+    height: 910px;
+    z-index: 2000;
+    position: absolute;
+    top: 0;
+    .contacts__icon {
+      display: block;
+      margin: 0 auto;
+      margin-top: 55px;
+    }
+    .contacts__title {
+      text-align: center;
+      font-family: "Proxima Nova", sans-serif;
+      font-size: 36px;
+      color: #FFFFFF;
+      text-transform: uppercase;
+    }
+    .contacts__address {
+      overflow: hidden;
+      position: absolute;
+      z-index: 3;
+      top: 220px;
+      right: 0;
+      height: 90px;
+      width: 360px;
+      background-color: rgba(255, 255, 255, 0.7);
+      display: -webkit-inline-flex;
+      display: -ms-inline-flexbox;
+      display: inline-flex;
+      color: #8783B0;
+      transition: -webkit-transform .4s ease;
+      transition: transform .4s ease;
+      transition: transform .4s ease, -webkit-transform .4s ease;
+      -webkit-transform: translateX(270px);
+      -ms-transform: translateX(270px);
+      transform: translateX(270px);
+      .address__button {
+        height: 90px;
+        width: 89px;
+        background: #9f9acf;
+      }
+      .address__button {
+        width: 90px;
+        background: #9F9ACF url(../pics/Icon-Address.png) 50% no-repeat;
+      }
+      .address__area {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        color: #665f60;
+        font-family: "PT Sans", sans-serif;
+        font-size: 18px;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 270px;
+        text-align: center;
+      }
+    }
+    .contacts__address:hover {
+      -webkit-transform: translateX(0px);
+      -ms-transform: translateX(0px);
+      transform: translateX(0px);
+    }
+    .contacts__phone {
+      position: absolute;
+      z-index: 3;
+      top: 310px;
+      right: 0;
+      height: 90px;
+      width: 360px;
+      background-color: rgba(255, 255, 255, 0.7);
+      display: -webkit-inline-flex;
+      display: -ms-inline-flexbox;
+      display: inline-flex;
+      color: #8783B0;
+      transition: -webkit-transform .4s ease;
+      transition: transform .4s ease;
+      transition: transform .4s ease, -webkit-transform .4s ease;
+      -webkit-transform: translateX(270px);
+      -ms-transform: translateX(270px);
+      transform: translateX(270px);
+    }
+
+    .contacts__phone:hover {
+      -webkit-transform: translateX(0px);
+      -ms-transform: translateX(0px);
+      transform: translateX(0px);
+    }
+
+    .phone__button {
+      width: 90px;
+      background: #9F9ACF url(../pics/Layer8.png) 50% no-repeat;
+    }
+    .phone__area {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      color: #665f60;
+      font-family: "PT Sans", sans-serif;
+      font-size: 18px;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      padding-left: 10px;
+      padding-right: 10px;
+      width: 270px;
+    }
+    .contacts__form {
+      max-width: 920px;
+      margin: 0 auto;
+      padding-left: 25px;
+      padding-right: 25px;
+      margin-top: 250px;
+      .form__name {
+        font-family: "PT Sans", sans-serif;
+        color: #FFFFFF;
+        font-size: 18px;
+        font-style: italic;
+        outline: none;
+        border-radius: 5px;
+        border: none;
+        background-color: rgba(255, 255, 255, 0.3);
+        height: 57px;
+        width: 47.8%;
+        padding-left: 20px;
+        margin-right: 32px;
+        margin-bottom: 20px;
+      }
+      .form__email {
+        font-family: "PT Sans", sans-serif;
+        color: #FFFFFF;
+        font-size: 18px;
+        font-style: italic;
+        outline: none;
+        border-radius: 5px;
+        padding-left: 20px;
+        border: none;
+        background-color: rgba(255, 255, 255, 0.3);
+        height: 57px;
+        margin-bottom: 20px;
+        width: 47.8%;
+      }
+      .form__massage {
+        font-family: "PT Sans", sans-serif;
+        color: #FFFFFF;
+        font-size: 18px;
+        font-style: italic;
+        padding-left: 20px;
+        outline: none;
+        border-radius: 5px;
+        border: none;
+        background-color: rgba(255, 255, 255, 0.3);
+        width: 100%;
+        height: 200px;
+      }
+      .form__button {
+        font-family: "Proxima Nova", sans-serif;
+        font-size: 20px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        font-weight: bold;
+        background: #9f9acf;
+        border: none;
+        border-radius: 5px;
+        border-bottom: 4px solid #8783B0;
+        display: block;
+        width: 40%;
+        height: 72px;
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-bottom: 50px;
+      }
+      .form__button:hover {
+        background: slateblue;
+        color: #67251a;
+      }
+    }
+    .top__button {
+      display: block;
+      position: absolute;
+      z-index: 3;
+      bottom: 50px;
+      right: 50px;
+      width: 84px;
+      height: 84px;
+      background: #9f9acf;
+    }
+    .top__button:hover {
+      opacity: 0.5;
+    }
+    img {
+      padding-top: 35px;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+}
+.footer{
+  height: 100%;
+  background: #9f9acf;
+  p{
+    color: #fff;
+    font-family: "PT Sans", sans-serif;
+    font-size: 18px;
+    padding: 50px 0 50px 0;
+    span{
+      font-weight: bold;
+    }
+  }
+  .footer__links{
+    float: right;
+    padding: 50px 0 50px 0;
+    a{
+      padding: 25px;
+    }
+  }
+}
+
+
